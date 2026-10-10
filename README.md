@@ -256,7 +256,7 @@ python eval_llm.py --load_from ./model --weight full_sft
 ### 3'（可选）WebUI
 
 ```bash
-# 可能需要`python>=3.10`，安装 `pip install streamlit`
+# 可能需要`python>=3.10`，安装 `pip install streamlit -i https://mirrors.aliyun.com/pypi/simple`
 # ⚠️ 须先将 transformers 格式模型文件夹复制到 ./scripts/ 目录下（例如：cp -r minimind-3 ./scripts/minimind-3），web_demo 脚本会自动扫描该目录下包含权重文件的子文件夹，如不存在则报错
 cd scripts && streamlit run web_demo.py
 ```
@@ -1572,7 +1572,7 @@ python eval_llm.py --weight full_sft --inference_rope_scaling
 ```bash
 # 安装
 git clone https://github.com/EleutherAI/lm-evaluation-harness
-cd lm-evaluation-harness && pip install -e .
+cd lm-evaluation-harness && pip install -e . -i https://mirrors.aliyun.com/pypi/simple
 ```
 
 

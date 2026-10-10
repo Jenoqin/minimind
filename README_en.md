@@ -255,7 +255,7 @@ python eval_llm.py --load_from ./model --weight full_sft
 ### 3' (Optional) WebUI
 
 ```bash
-# May need `python>=3.10`, install `pip install streamlit`
+# May need `python>=3.10`, install `pip install streamlit -i https://mirrors.aliyun.com/pypi/simple`
 # ⚠️ You must first copy the transformers-format model folder into ./scripts/ (e.g.: cp -r minimind-3 ./scripts/minimind-3). The web_demo script will auto-scan subdirectories containing weight files; it will throw an error if none are found.
 cd scripts && streamlit run web_demo.py
 ```
@@ -1570,7 +1570,7 @@ The evaluation framework chosen is [lm-evaluation](https://github.com/EleutherAI
 ```bash
 # Installation
 git clone https://github.com/EleutherAI/lm-evaluation-harness
-cd lm-evaluation-harness && pip install -e .
+cd lm-evaluation-harness && pip install -e . -i https://mirrors.aliyun.com/pypi/simple
 ```
 
 

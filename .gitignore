@@ -4,3 +4,8 @@ __pycache__/
 out
 website/
 docs-minimind/
+
+# macOS 本地环境与大数据（不入库）
+.venv/
+dataset/
+checkpoints/
