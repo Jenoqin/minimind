@@ -4,3 +4,11 @@ __pycache__/
 out
 website/
 docs-minimind/
+# 本地训练产物（不推送）
+checkpoints/
+logs/
+swanlog/
+trainer/swanlog/
+dataset/*.jsonl
+dataset/.msc
+dataset/.mv
