@@ -1,0 +1,186 @@
+{
+  "source": "/Users/qin/Downloads/minimind_4090_results",
+  "files": [
+    {
+      "path": "checkpoints/pretrain_768.pth",
+      "bytes": 137684795,
+      "sha256": "9524a52784f5989a558d0d6aba607f0f7cf8952629d3ff09ace4e8140e8df039",
+      "existing_sha256": "62bfc034e1af1f9ccbd1c4cab884d620d5fdae1f214697c06ce4640a6daa8e13",
+      "action": "replace",
+      "backup_path": "checkpoints/backups/before_cloud_import_20261012_112839/checkpoints/pretrain_768.pth"
+    },
+    {
+      "path": "checkpoints/pretrain_768_resume.pth",
+      "bytes": 649064413,
+      "sha256": "12c3d7636ab1211a04fcf750e4532a4f8263ecd26362fb207f8d7fac29191794",
+      "existing_sha256": "cc8e91714ed3d1c7585fb0aafd56afc8c0726cece21a9a83bbd8d41c1333bcfa",
+      "action": "replace",
+      "backup_path": "checkpoints/backups/before_cloud_import_20261012_112839/checkpoints/pretrain_768_resume.pth"
+    },
+    {
+      "path": "docs/collect_evidence.py",
+      "bytes": 4159,
+      "sha256": "038a9d2aa39e5b07fc095a35741481a450ecf9ba5c059cdcedeae41dadf421c5",
+      "existing_sha256": "038a9d2aa39e5b07fc095a35741481a450ecf9ba5c059cdcedeae41dadf421c5",
+      "action": "unchanged"
+    },
+    {
+      "path": "docs/evidence/eval_pretrain_output.txt",
+      "bytes": 5831,
+      "sha256": "dc671f851f08f3d4f9301ed58581799e8f24aa6bd1107049e796bfa7e950a1ad",
+      "existing_sha256": "dc671f851f08f3d4f9301ed58581799e8f24aa6bd1107049e796bfa7e950a1ad",
+      "action": "unchanged"
+    },
+    {
+      "path": "docs/evidence/gpu_status.txt",
+      "bytes": 202,
+      "sha256": "fcbc39bc639a02fc3f444cf02e9ede15bfa72ec13202fc121b98227eef5be1b7",
+      "existing_sha256": "fcbc39bc639a02fc3f444cf02e9ede15bfa72ec13202fc121b98227eef5be1b7",
+      "action": "unchanged"
+    },
+    {
+      "path": "docs/evidence/loss_lr_curve.png",
+      "bytes": 66577,
+      "sha256": "bf7d58a3af5ac3267b4eff2860bd2d4e8f8e8128e2089a1bc934cc8bd8aa0e03",
+      "existing_sha256": "bf7d58a3af5ac3267b4eff2860bd2d4e8f8e8128e2089a1bc934cc8bd8aa0e03",
+      "action": "unchanged"
+    },
+    {
+      "path": "docs/evidence/weight_files.txt",
+      "bytes": 189,
+      "sha256": "7d87c0a38e8ea5bd46ac052ee972a430c47fe852af3a647004ac69923096c5de",
+      "existing_sha256": "7d87c0a38e8ea5bd46ac052ee972a430c47fe852af3a647004ac69923096c5de",
+      "action": "unchanged"
+    },
+    {
+      "path": "docs/预训练学习文档.md",
+      "bytes": 17762,
+      "sha256": "0e8a86eeb81f0fa625b1d8a4ebcccc427409c303110f5ba0fd2372744425c5f6",
+      "existing_sha256": "0e8a86eeb81f0fa625b1d8a4ebcccc427409c303110f5ba0fd2372744425c5f6",
+      "action": "unchanged"
+    },
+    {
+      "path": "logs/pretrain.log",
+      "bytes": 90617,
+      "sha256": "43ab5b4bba7d66979c781c208d74724f66febed1e4c0acae694fa9956f487518",
+      "existing_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "out/pretrain_768.pth",
+      "bytes": 137684407,
+      "sha256": "7edd1d9dc533d4a78f3dbc825ef1ef083416b860a11a203aba623d09a5607684",
+      "existing_sha256": "7edd1d9dc533d4a78f3dbc825ef1ef083416b860a11a203aba623d09a5607684",
+      "action": "unchanged"
+    },
+    {
+      "path": "trainer/swanlog/.gitignore",
+      "bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "existing_sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "action": "unchanged"
+    },
+    {
+      "path": "trainer/swanlog/run-20261011_103430-p4gibyx8/debug/debug.log",
+      "bytes": 117,
+      "sha256": "80a4ce6ce8f43b138935203500b286aff4b2898bc2ddb3ee3650d6de2c0010e0",
+      "existing_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "trainer/swanlog/run-20261011_103430-p4gibyx8/files/config.yaml",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "existing_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "trainer/swanlog/run-20261011_103430-p4gibyx8/files/requirements.txt",
+      "bytes": 4547,
+      "sha256": "6bd2d027525b61e4b17bf47f4382e66c9e4a5a6ad31879cc9295468ca2a834f4",
+      "existing_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "trainer/swanlog/run-20261011_103430-p4gibyx8/files/swanlab-metadata.json",
+      "bytes": 1065,
+      "sha256": "5f74a4ee0901eec84a200fc9eff3f00a44f381bbc2aeec763fb87b87292ceb21",
+      "existing_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "trainer/swanlog/run-20261011_103430-p4gibyx8/run-p4gibyx8.swanlab",
+      "bytes": 24415,
+      "sha256": "4d3eaf28f6bae5351a5de2c3f21fa1e55d62347492c9d14d6f0fe828797bb2c6",
+      "existing_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "trainer/swanlog/run-20261011_103900-p4gibyx8/debug/debug.log",
+      "bytes": 117,
+      "sha256": "5d2487469ad83c3b25f2aa8fb570387523dc07800c9244a6622a283514ff4a04",
+      "existing_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "trainer/swanlog/run-20261011_103900-p4gibyx8/files/config.yaml",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "existing_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "trainer/swanlog/run-20261011_103900-p4gibyx8/files/swanlab-metadata.json",
+      "bytes": 498,
+      "sha256": "13d5c4f0985324950baf3dd3233c2d6fbd16ff6279cb93b006b9c4b740add158",
+      "existing_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "trainer/swanlog/run-20261011_103900-p4gibyx8/run-p4gibyx8.swanlab",
+      "bytes": 380383,
+      "sha256": "cbbabb0cde8e5b609fee9d872b7047e742c3456a3e89777abcc5e71069843df8",
+      "existing_sha256": null,
+      "action": "add"
+    }
+  ],
+  "log_points": 784,
+  "first_log_point": [
+    "1",
+    "2",
+    "1100",
+    "39695",
+    "4.9118",
+    "4.9118",
+    "0.0000",
+    "0.00049979",
+    "54.0"
+  ],
+  "last_log_point": [
+    "2",
+    "2",
+    "39695",
+    "39695",
+    "1.6360",
+    "1.6360",
+    "0.0000",
+    "0.00005000",
+    "0.0"
+  ],
+  "imported_at": "2026-10-12T11:28:40.646460+08:00",
+  "project_root": "/Users/qin/vibecoding/minimind",
+  "backup_root": "checkpoints/backups/before_cloud_import_20261012_112839",
+  "verification": {
+    "all_20_files_sha256_match": true,
+    "checkpoint_epoch_zero_based": 1,
+    "checkpoint_step": 39695,
+    "epochs_completed": 2,
+    "micro_batches_total": 79390,
+    "optimizer_updates": 9924,
+    "final_logged_loss": 1.636,
+    "final_learning_rate": 5e-05,
+    "swanlab_run_id": "p4gibyx8",
+    "strict_model_load": "all keys matched",
+    "out_and_checkpoint_model_tensors_match": true
+  }
+}

@@ -1,0 +1,9 @@
+swanlab: Hardware information collection, monitor, and terminal proxy have been disabled in resume mode.
+swanlab: Tracking run with swanlab version 0.9.8
+swanlab: 💾 Run data saved at /Users/qin/vibecoding/minimind/trainer/swanlog/run-20261010_171845-vngq003w
+swanlab: 📁 View project at https://swanlab.cn/@qiuy66/MiniMind-Pretrain
+swanlab: 🚀 View run Min...poch-2-BatchSize-32-LearningRate-0.0005 at 
+https://swanlab.cn/@qiuy66/MiniMind-Pretrain/runs/vngq003w
+Model Params: 63.91M
+Trainable Params: 63.912M
+Epoch [1/1]: 跳过前3000个step，从step 3001开始

@@ -1,0 +1,48 @@
+swanlab: Using SwanLab to track your experiments. To get started, choose one of the following options:
+(1) Use an existing API key.
+(2) Create a new SwanLab account.
+(3) Continue without visualization (Offline mode).
+Learn more in the documentation: https://docs.swanlab.cn
+Enter your choice [1/2/3]: swanlab: Using an existing SwanLab API key.
+swanlab: You can find your API key at: https://swanlab.cn/space/~/settings#development
+Paste an API key from your profile and hit enter, or press 'CTRL + C' to quit: [?2004l*********************
+[?2004hswanlab: Currently logged in as: qiuy to https://api.swanlab.cn/api. Use `swanlab login --relogin` to force relogin
+swanlab: Tracking run with swanlab version 0.9.8
+swanlab: 💾 Run data saved at /Users/qin/vibecoding/minimind/trainer/swanlog/run-20261010_160129-vngq003w
+swanlab: 📁 View project at https://swanlab.cn/@qiuy66/MiniMind-Pretrain
+swanlab: 🚀 View run Min...poch-2-BatchSize-32-LearningRate-0.0005 at 
+https://swanlab.cn/@qiuy66/MiniMind-Pretrain/runs/vngq003w
+Model Params: 63.91M
+Trainable Params: 63.912M
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 278508 examples [00:00, 2680097.32 examples/s]Generating train split: 644757 examples [00:00, 2389506.97 examples/s]Generating train split: 946326 examples [00:00, 1805494.99 examples/s]Generating train split: 1185688 examples [00:00, 1351688.94 examples/s]Generating train split: 1270238 examples [00:00, 1569824.89 examples/s]
+Epoch:[1/2](100/39695), loss: 7.5233, logits_loss: 7.5233, aux_loss: 0.0000, lr: 0.00050000, epoch_time: 705.0min
+Epoch:[1/2](200/39695), loss: 7.0189, logits_loss: 7.0189, aux_loss: 0.0000, lr: 0.00049999, epoch_time: 643.0min
+Epoch:[1/2](300/39695), loss: 6.6758, logits_loss: 6.6758, aux_loss: 0.0000, lr: 0.00049998, epoch_time: 621.0min
+Epoch:[1/2](400/39695), loss: 6.5250, logits_loss: 6.5250, aux_loss: 0.0000, lr: 0.00049997, epoch_time: 609.0min
+Epoch:[1/2](500/39695), loss: 6.2170, logits_loss: 6.2170, aux_loss: 0.0000, lr: 0.00049996, epoch_time: 601.0min
+Epoch:[1/2](600/39695), loss: 6.1078, logits_loss: 6.1078, aux_loss: 0.0000, lr: 0.00049994, epoch_time: 595.0min
+Epoch:[1/2](700/39695), loss: 5.9049, logits_loss: 5.9049, aux_loss: 0.0000, lr: 0.00049991, epoch_time: 590.0min
+Epoch:[1/2](800/39695), loss: 5.6207, logits_loss: 5.6207, aux_loss: 0.0000, lr: 0.00049989, epoch_time: 586.0min
+Epoch:[1/2](900/39695), loss: 5.3978, logits_loss: 5.3978, aux_loss: 0.0000, lr: 0.00049986, epoch_time: 582.0min
+Epoch:[1/2](1000/39695), loss: 5.2475, logits_loss: 5.2475, aux_loss: 0.0000, lr: 0.00049982, epoch_time: 579.0min
+Epoch:[1/2](1100/39695), loss: 4.9183, logits_loss: 4.9183, aux_loss: 0.0000, lr: 0.00049979, epoch_time: 576.0min
+Epoch:[1/2](1200/39695), loss: 4.6848, logits_loss: 4.6848, aux_loss: 0.0000, lr: 0.00049975, epoch_time: 574.0min
+Epoch:[1/2](1300/39695), loss: 4.4960, logits_loss: 4.4960, aux_loss: 0.0000, lr: 0.00049970, epoch_time: 571.0min
+2026-10-10 16:21:33.302 | WARNING  | swanlab.sdk.internal.pkg.client.session:increment:48 - [HTTP] retry #1 UNKNOWN  
+because error=NameResolutionError("HTTPSConnection(host='api.swanlab.cn', port=443): Failed to resolve 'api.swanlab.cn' 
+([Errno 8] nodename nor servname provided, or not known)")
+2026-10-10 16:21:33.706 | WARNING  | swanlab.sdk.internal.pkg.client.session:increment:48 - [HTTP] retry #2 UNKNOWN  
+because error=NameResolutionError("HTTPSConnection(host='api.swanlab.cn', port=443): Failed to resolve 'api.swanlab.cn' 
+([Errno 8] nodename nor servname provided, or not known)")
+2026-10-10 16:21:34.442 | WARNING  | swanlab.sdk.internal.core_python.transport.thread:warn:187 - Upload failed due to 
+network or server issues, retrying automatically.
+2026-10-10 16:21:34.720 | WARNING  | swanlab.sdk.internal.pkg.client.session:increment:48 - [HTTP] retry #3 UNKNOWN  
+because error=NameResolutionError("HTTPSConnection(host='api.swanlab.cn', port=443): Failed to resolve 'api.swanlab.cn' 
+([Errno 8] nodename nor servname provided, or not known)")
+2026-10-10 16:31:19.481 | WARNING  | swanlab.sdk.internal.pkg.client.session:increment:48 - [HTTP] retry #4 UNKNOWN  
+because error=NameResolutionError("HTTPSConnection(host='api.swanlab.cn', port=443): Failed to resolve 'api.swanlab.cn' 
+([Errno 8] nodename nor servname provided, or not known)")
+2026-10-10 16:31:23.494 | WARNING  | swanlab.sdk.internal.pkg.client.session:increment:48 - [HTTP] retry #5 UNKNOWN  
+because error=NameResolutionError("HTTPSConnection(host='api.swanlab.cn', port=443): Failed to resolve 'api.swanlab.cn' 
+([Errno 8] nodename nor servname provided, or not known)")
+swanlab: Upload recovered, resuming normally.

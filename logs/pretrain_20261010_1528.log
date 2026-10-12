@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/qin/vibecoding/minimind/trainer/train_pretrain.py", line 7, in <module>
+    import datasets  # noqa: F401  # Windows pyarrow/torch DLL conflict workaround (issue #771)
+    ^^^^^^^^^^^^^^^
+  File "/Users/qin/vibecoding/minimind/.venv/lib/python3.12/site-packages/datasets/__init__.py", line 17, in <module>
+    from .arrow_dataset import Dataset
+  File "/Users/qin/vibecoding/minimind/.venv/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 57, in <module>
+    import pyarrow as pa
+  File "/Users/qin/vibecoding/minimind/.venv/lib/python3.12/site-packages/pyarrow/__init__.py", line 59, in <module>
+    from pyarrow.lib import (BuildInfo, CppBuildInfo, RuntimeInfo, set_timezone_db_path,
+  File "pyarrow/lib.pyx", line 42, in init pyarrow.lib
+ImportError: pyarrow requires NumPy 2.0 or newer, found 1.26.4
