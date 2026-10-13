@@ -1,0 +1,7 @@
+*.zip
+.DS_Store
+.sites-runtime/
+node_modules/
+.runtime/
+__pycache__/
+.openai/

@@ -1,0 +1,18 @@
+#!/bin/bash
+# 只关闭这个课程控制器启动的服务器。
+LESSON_DIR="$(cd "$(dirname "$0")" && pwd)"
+LESSON_PYTHON="$LESSON_DIR/../../.venv/bin/python"
+if [ ! -x "$LESSON_PYTHON" ]; then
+    LESSON_PYTHON="$(command -v python3)"
+fi
+if [ -z "$LESSON_PYTHON" ]; then
+    echo "未找到 Python 3，请先安装 Python 3。"
+    read -r -p "按回车结束…"
+    exit 1
+fi
+"$LESSON_PYTHON" "$LESSON_DIR/local_server.py" stop
+LESSON_RESULT=$?
+if [ "$LESSON_RESULT" -ne 0 ]; then
+    read -r -p "按回车结束…"
+fi
+exit "$LESSON_RESULT"

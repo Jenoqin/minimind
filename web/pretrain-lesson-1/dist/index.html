@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta name="description" content="从一句话开始，亲手探索 MiniMind 预训练：分词、预测、误差、梯度与参数更新。">
+  <title>预训练第一课 · MiniMind 学习室</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到课程内容</a>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#map" aria-label="MiniMind 学习室首页"><span class="brand-mark">m<span>·</span></span><span>MiniMind<small>学习室 / LEARNING LAB</small></span></a>
+    <div class="course-label">从零理解大语言模型</div>
+    <div class="course-name">第一课<br>预训练的全流程地图</div>
+    <nav id="navigation" aria-label="课程章节"></nav>
+    <div class="sidebar-bottom"><span class="status-dot"></span> 基于你的真实训练实验<p>RTX 4090 · Dense 63.91M</p><a href="assets/lesson-1.md" download>下载本课讲义 <span>↗</span></a></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <button class="menu-button" id="menu-button" aria-label="展开课程目录" aria-controls="sidebar" aria-expanded="false">☰</button>
+      <div class="breadcrumb">预训练入门 <span>/</span> <strong id="current-section">训练地图</strong></div>
+      <div class="progress-wrap"><span id="progress-text">已完成 0 / 6</span><div class="progress-track" role="progressbar" aria-label="课程完成进度" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0"><span id="progress-fill"></span></div></div>
+      <button class="notes-button" id="notes-toggle" aria-expanded="false" aria-controls="notes-panel">✎ <span>我的笔记</span></button>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="page-footer"><span>以代码理解原理，以证据检查理解。</span><span>MINIMIND · LESSON 01</span></footer>
+  </div>
+  <dialog id="notes-panel" aria-labelledby="notes-title">
+    <div class="notes-head"><div><span class="eyebrow">LEARNING JOURNAL</span><h2 id="notes-title">把地图写成自己的理解</h2></div><button id="notes-close" class="icon-button" aria-label="关闭笔记">×</button></div>
+    <p class="muted">笔记自动保存在当前浏览器中，你也可以下载一份副本。</p>
+    <label for="notes">用自己的话解释预训练</label>
+    <textarea id="notes" rows="13" placeholder="数据来自：\n分词器做的事：\n模型预测的目标：\nloss 表示：\nbackward 做的事：\n优化器做的事：\n两种保存文件的区别：\n我还不理解的问题："></textarea>
+    <div class="notes-actions"><span id="notes-status" role="status">尚未填写笔记</span><button class="primary-button" id="notes-download">下载笔记 ↓</button></div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
